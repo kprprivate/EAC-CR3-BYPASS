@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="DirbaseBypass">
+      <UniqueIdentifier>{4a528202-297f-4da5-bf02-bbd102cc58c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Communication">
+      <UniqueIdentifier>{73aa4e4b-c7bf-49ef-92c0-9fa5f197950a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Structure/Defines">
+      <UniqueIdentifier>{c4034de1-2ba7-40aa-95b6-89792b407730}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DirbaseBypass.h">
+      <Filter>DirbaseBypass</Filter>
+    </ClInclude>
+    <ClInclude Include="communication.h">
+      <Filter>Communication</Filter>
+    </ClInclude>
+    <ClInclude Include="ioctl.h">
+      <Filter>Communication</Filter>
+    </ClInclude>
+    <ClInclude Include="defines.h">
+      <Filter>Structure/Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="driverEntry.h" />
+    <ClInclude Include="structure.h">
+      <Filter>Structure/Defines</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DirbaseBypass.c">
+      <Filter>DirbaseBypass</Filter>
+    </ClCompile>
+    <ClCompile Include="driverEntry.c" />
+    <ClCompile Include="communication.c">
+      <Filter>Communication</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
