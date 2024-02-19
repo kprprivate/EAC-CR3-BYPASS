@@ -34,6 +34,12 @@ void initDefinesCR3() {
 
 // Retrieve the Directory Base address of a specific process
 uintptr_t GetDirBase(uint32_t pid) {
+
+    // In case your dumb as fuck and forgot to start CR3
+    if (g_MmPfnDatabase == 0 && g_PXE_BASE == 0 && g_idx == 0) {
+        initDefinesCR3();
+    }
+
     PHYSICAL_MEMORY_RANGE* memRange = MmGetPhysicalMemoryRanges();
     if (!memRange) {
         // Error: Failed to get physical memory ranges

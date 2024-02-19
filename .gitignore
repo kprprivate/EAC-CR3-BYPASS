@@ -1,0 +1,6 @@
+
+*.db
+*.ipch
+.vs/EAC-CR3-BYPASS/v17/DocumentLayout.json
+.vs/EAC-CR3-BYPASS/v17/.suo
+*.vsidx
