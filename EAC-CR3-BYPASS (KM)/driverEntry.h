@@ -6,6 +6,7 @@
 
 #define DEVICE_NAME L"cr3Bypass"
 
+UNICODE_STRING driverName;
 UNICODE_STRING ntName = RTL_CONSTANT_STRING(L"\\Device\\" DEVICE_NAME);
 UNICODE_STRING symbolicLinkName = RTL_CONSTANT_STRING(L"\\DosDevices\\" DEVICE_NAME);
 PDEVICE_OBJECT gDeviceObject = NULL;

@@ -17,7 +17,8 @@ NTSTATUS DriverEntry(PDRIVER_OBJECT DriverObject, PUNICODE_STRING RegistryPath)
     ///////////////////////////////
 
     ///////////////////////////////
-    status = IoCreateDevice(DriverObject, 0, &ntName, FILE_DEVICE_UNKNOWN, 0, FALSE, &gDeviceObject);
+    status = IoCreateDevice(&driverName, &ntName);
+    // status = IoCreateDevice(DriverObject, 0, &ntName, FILE_DEVICE_UNKNOWN, 0, FALSE, &gDeviceObject);
     if (!NT_SUCCESS(status))
     {
         return status;
