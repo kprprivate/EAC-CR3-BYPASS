@@ -4,3 +4,7 @@
 - **Effortless Integration:** Focus on what matters most — your application — while we handle the intricate details behind the scenes.
 
 Check it out: [R/W KERNEL PRO](https://github.com/kprprivate/R-W-DRIVER-SIGNED-FOR-SELL)
+
+For more details & show in-live working, contact me on Discord:
+- Join: [discord.gg/anonymous](https://discord.gg/anonymous)
+- Direct Message: `anonymousepvp`
